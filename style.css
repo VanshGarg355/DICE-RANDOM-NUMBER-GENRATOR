@@ -1,0 +1,35 @@
+.container{
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+    display: block;
+    background-color: #ea7777;
+    padding: 50px;
+    height: auto;
+    width: auto;
+    margin-top: 50px;
+}
+.rollButton {
+    background-color: #109c15;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.rollButton:hover {
+    background-color: #45a049;
+}
+.diceResult {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #333;
+}
+.diceImages {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
